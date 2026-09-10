@@ -1,0 +1,51 @@
+{
+  "part": "xc7s75fgga484-1",
+  "main_clock_hz": 1000,
+  "sources_sha256": {
+    "example/fpga_projects_hdl/LAB1/vivado_2026_1/11_integrated/constraints/lab1_integrated.xdc": "77fdfa05fe64bbe260f6cbecf988314a5f068873a731622252a10c37eb9a8069",
+    "legacy/notebook/cpp/verilog/W4/12_seg_decoder_array/pin.xdc": "d3577843e0ba301d19ee2138017762477481fd243083b536a1bf3ae73cabbfac",
+    "legacy/notebook/cpp/verilog/W4/12_seg_decoder_array/seg_decoder_array.v": "d0631649a58cce935c4eb2326d9c9c566b6e8a82e752efd21fb2786cefa766b6"
+  },
+  "pins": {
+    "clk": "B6",
+    "rst": "K4",
+    "button": "N8",
+    "sw[0]": "U4",
+    "sw[1]": "V4",
+    "sw[2]": "W1",
+    "sw[3]": "W4",
+    "sw[4]": "T1",
+    "sw[5]": "U2",
+    "sw[6]": "W3",
+    "sw[7]": "Y1",
+    "led[0]": "N5",
+    "led[1]": "M1",
+    "led[2]": "M3",
+    "led[3]": "M7",
+    "led[4]": "N7",
+    "led[5]": "M2",
+    "led[6]": "M4",
+    "led[7]": "L4",
+    "seg_data[0]": "H2",
+    "seg_data[1]": "J7",
+    "seg_data[2]": "J3",
+    "seg_data[3]": "J1",
+    "seg_data[4]": "E4",
+    "seg_data[5]": "E2",
+    "seg_data[6]": "F5",
+    "seg_data[7]": "F1",
+    "seg_com[0]": "K5",
+    "seg_com[1]": "K3",
+    "seg_com[2]": "K1",
+    "seg_com[3]": "L6",
+    "seg_com[4]": "G3",
+    "seg_com[5]": "G1",
+    "seg_com[6]": "H6",
+    "seg_com[7]": "H4"
+  },
+  "array_polarity": {
+    "seg_data": "active-high abcdefg,dp",
+    "seg_com": "active-low; logical index 0 -> COM[7]"
+  },
+  "status": "source mapping; hardware execution not performed"
+}

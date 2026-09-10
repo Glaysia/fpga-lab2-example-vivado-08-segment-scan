@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Sep 10 22:20:50 2026
+# Process ID         : 17868
+# Current directory  : C:/Users/UOS/Documents/ece2_26_2_2/tmp/lab2-xsim/08_segment_scan-1789046447446716600
+# Command line       : xsim.exe -log simulation.log -mode tcl -source {xsim.dir/lab2_snapshot/xsim_script.tcl}
+# Log file           : C:/Users/UOS/Documents/ece2_26_2_2/tmp/lab2-xsim/08_segment_scan-1789046447446716600/simulation.log
+# Journal file       : C:/Users/UOS/Documents/ece2_26_2_2/tmp/lab2-xsim/08_segment_scan-1789046447446716600\xsim.jou
+# Running On         : harrylt
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8390 MB
+# Swap memory        : 20971 MB
+# Total Virtual      : 29361 MB
+# Available Virtual  : 15440 MB
+#-----------------------------------------------------------
+source xsim.dir/lab2_snapshot/xsim_script.tcl
+# xsim {lab2_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+LAB2_PASS segment_scan8 checks=194
+$finish called at time : 1306 ns : File "C:/Users/UOS/Documents/ece2_26_2_2/example/fpga_projects_hdl/LAB2/vivado_2026_1/08_segment_scan/sim/tb_segment_scan8.sv" Line 19
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Sep 10 22:20:53 2026...
